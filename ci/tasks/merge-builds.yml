@@ -9,6 +9,7 @@ inputs:
 - name: builder-src
 - name: cn-light-stemcell
 - name: us-light-stemcell
+- name: us_gov-light-stemcell
 
 outputs:
 - name: light-stemcell
@@ -18,3 +19,4 @@ run:
   args:
     - cn-light-stemcell
     - us-light-stemcell
+    - us_gov-light-stemcell
